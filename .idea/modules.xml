@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/VINA.iml" filepath="$PROJECT_DIR$/.idea/VINA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VueAdmin.iml" filepath="$PROJECT_DIR$/VueAdmin.iml" />
     </modules>
   </component>
 </project>

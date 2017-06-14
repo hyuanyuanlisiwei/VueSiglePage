@@ -1,24 +1,20 @@
 <template>
   <div>
-    <router-view
-      class="view"
-      keep-alive
-      transition
-      transition-mode="out-in">
-    </router-view>
-    <router-view name="login"></router-view>
-    <router-view name="register"></router-view>
+     <router-view></router-view>
   </div>
 </template>
 
 <script>
+  import Login from '@/views/login/login'
   export default {
-    components:{}
+    components:{
+        Login
+    }
   }
 </script>
 
-<style lang="less">
-   @import './style/style';
+<style lang="scss">
+
 </style>
 
 
